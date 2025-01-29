@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Video Editor Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Your Name</h1>
+      <p>Professional Video Editor</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Brief introduction about yourself, your skills, and experience in video
+        editing.
+      </p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/R9OHn5ZF4Uo?si=VnA2F00g5nqnJx0V"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <div class="text">Project Title 1</div>
+        </div>
+        <div class="mySlides fade">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/yqaLSlPOUxM?si=M01SaJ6fWjS5oMt4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <div class="text">Project Title 2</div>
+        </div>
+        <div class="mySlides fade">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/VIDEO_ID_3"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="text">Project Title 3</div>
+        </div>
+        <!-- Add more slides as needed -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <!-- Add more dots as needed -->
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
+      </p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"
+          >Your LinkedIn Profile</a
+        >
+      </p>
+      <!-- Add other contact methods as needed -->
+    </section>
+    <footer>
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
